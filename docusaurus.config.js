@@ -10,28 +10,34 @@ const config = {
   tagline: 'How to create Unity games on Wii U',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
   url: 'https://portal-wii-u-edition.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Portal-Wii-U-Edition', // Usually your GitHub org/user name.
-  projectName: 'portal-wii-u-edition.github.io', // Usually your repo name.
+  organizationName: 'Portal-Wii-U-Edition',
+  projectName: 'portal-wii-u-edition.github.io',
   deploymentBranch: 'main',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        path: 'en',
+      },
+      fr: {
+        label: 'Français',
+        direction: 'ltr',
+        htmlLang: 'fr',
+        path: 'fr',
+      },
+    },
   },
 
   presets: [
@@ -44,10 +50,6 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,6 +77,10 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/Portal-Wii-U-Edition',
             label: 'GitHub',
             position: 'right',
@@ -89,7 +95,15 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/Introduction',
+                to: '/docs/introduction',
+              },
+              {
+                label: 'Setup',
+                to: '/docs/setup',
+              },
+              {
+                label: 'Code',
+                to: '/docs/code',
               },
             ],
           },
