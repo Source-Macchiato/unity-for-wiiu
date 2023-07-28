@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Setup": {
+    "message": "Installation",
+    "description": "The label for category Setup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Setup.link.generated-index.description": {
+    "message": "Voici comment configurer votre environnement de travail et créez votre jeu Wii U",
+    "description": "The generated-index page description for category Setup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Code": {
+    "message": "Code",
+    "description": "The label for category Code in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Code.link.generated-index.description": {
+    "message": "Voici comment configurer votre environnement de travail et créez votre jeu Wii U",
+    "description": "The generated-index page description for category Code in sidebar tutorialSidebar"
+  }
+}

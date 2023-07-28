@@ -16,6 +16,6 @@ After configuring your development environment you can now launch Unity Hub and 
 
 ### Unity Preferences
 
-In the 'Edit' category click on the 'Unity Preferences' button then select your code editor from the 'External Script Editor' drop-down menu. For the 'Wii U SDK Location' dropdown change 'CAFE_ROOT' to the path to your Wii U SDK which should be 'C:\Nintendo\SDK\SDK\cafe_sdk'. And finally for the 'MULTI Location' drop-down menu select the path to the 'multi5324' folder that we placed in 'C:\ghs\multi5324'.
+In the "Edit" category click on the "Unity Preferences" button then select your code editor from the "External Script Editor" drop-down menu. For the "Wii U SDK Location" dropdown change "CAFE_ROOT" to the path to your Wii U SDK which should be "C:\Nintendo\SDK\SDK\cafe_sdk". And finally for the "MULTI Location" drop-down menu select the path to the "multi5324" folder that we placed in "C:\ghs\multi5324".
 
 ![Configuration of the Unity project](/img/configure-unity-project.jpg)

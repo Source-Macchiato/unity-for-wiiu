@@ -18,7 +18,7 @@ Here is the procedure to follow to configure your work environment.
 
 - After downloading the Nintendo Dev Interface installation file, install it and leave the default options.
 - Then open the software, login to your Nintendo developer account and select "Dev Environments".
-- Then click on "Add Environment" and then on "Create From Archive".
+- Click on "Add Environment" and then on "Create From Archive".
 - Search your PC for the MegaZarf file (the archive you previously downloaded) and leave the default installation location.
 
 ### ghs folder
