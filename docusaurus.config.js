@@ -10,8 +10,8 @@ const config = {
   tagline: 'How to create Unity games on Wii U',
   favicon: 'img/favicon.ico',
 
-  url: 'https://portal-wii-u-edition.github.io',
-  baseUrl: '/',
+  url: 'https://portal-wiiu-edition.com',
+  baseUrl: '/docs/',
 
   organizationName: 'Portal-Wii-U-Edition',
   projectName: 'portal-wii-u-edition.github.io',
@@ -47,9 +47,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: {
-          showReadingTime: true,
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,7 +59,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/unity-for-wiiu.png',
       navbar: {
         title: 'Unity for Wii U',
         logo: {
