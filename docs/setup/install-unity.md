@@ -2,36 +2,25 @@
 sidebar_position: 1
 ---
 
-# Installing Unity 2017.1.2p3
+# Installing Unity
 
-To develop on Unity for Wii U you must follow this procedure.
+## Gathering prerequisites
 
-## Downloading executables
+- [Unity](https://archive.org/download/unityforwiiu40120171205/UnityforWiiU-4_0_1-20171205.zip)
+- [Unity Hub](https://unity.com/unity-hub)
 
-Download installation files for :
-- [Unity 2017.1.2p3](https://drive.google.com/file/d/1Yg5uslbLNljS48KVe3senZlip80ziQx0/view?usp=sharing)
-- [Unity 2017.1.2p3 Wii U support](https://drive.google.com/file/d/1CT7PZ_xNFPaWkwN-37TjYGIb3Xk9Y13p/view?usp=sharing)
-- [Unity Hub v3](https://unity.com/unity-hub)
+Extract `UnityforWiiU-4_0_1-20171205.zip` once downloaded, and install the programs as followed **in order**:
 
-## Installation
+1. `UnityforWiiU-4_0_1-20171205.exe`
+2. `UnityforWiiU-4_0_1-WiiUSupport-20171205.exe`
 
-### Unity 2017.1.2p3
+Install & log into Unity Hub, but **do not** install any Unity version if it prompts you to. **This can completely brick Unity and you will have to reinstall Windows!**
 
-After downloading, launch the UnityforWiiU-4_0_1-20171205.exe file and perform a classic installation without modifying the default options.
+## Activating Unity
+**Do not use Unity for this or your web browser. Use Unity Hub.**
 
-### Unity 2017.1.2p3 Wii U support
-
-After installing Unity 2017.1.2p3 and downloading the Wii U support, launch the UnityforWiiU-4_0_1-WiiUSupport-20171205.exe file and also do a classic installation without changing the default options.
-
-### Unity Hub v3
-
-After installing the Unity 2017.1.2p3 Wii U support and downloading the Unity Hub v3 setup file, launch the installation and leave the default options again.
-
-## Activation key
-
-Now all you need to do is activate the Unity development license for Wii U. Here are the steps to follow :
-- Login to your Unity account in Unity Hub v3
-- Click on your avatar
-- Go to "Manage licenses"
-- Then click on "Add" and select "Activate with serial number"
-- Finally paste the following code and do "Activate licenses" : `I3-K6SY-99ZB-JYFZ-DZQP-E8PH`
+- Login to your Unity account in Unity Hub,
+- Click on your account's profile picture at the top left,
+- Navigate to "Manage licenses",
+- Click on "Add", and select "Activate with serial number",
+- Finally, use the following serial number: `I3-K6SY-99ZB-JYFZ-DZQP-E8PH`

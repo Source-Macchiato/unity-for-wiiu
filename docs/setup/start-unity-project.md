@@ -8,14 +8,19 @@ Creation of the Unity project and configuration.
 
 ## Creation of the Unity project
 
-After configuring your development environment you can now launch Unity Hub and create a new project. Select the 3D template, choose a name, a path and now let's go to the project configuration.
+After configuring your development environment, you may now launch Unity Hub and create a new project. Select the 3D template, choose a name & path.
 
-![Creation of the Unity project](/img/create-unity-project.jpg)
+Disregard any errors, as we will fix them in the next section.
 
 ## Configuration
 
 ### Unity Preferences
 
-In the "Edit" category click on the "Unity Preferences" button then select your code editor from the "External Script Editor" drop-down menu. For the "Wii U SDK Location" dropdown change "CAFE_ROOT" to the path to your Wii U SDK which should be "C:\Nintendo\SDK\SDK\cafe_sdk". And finally for the "MULTI Location" drop-down menu select the path to the "multi5324" folder that we placed in "C:\ghs\multi5324".
+At the top left of Unity, click `Edit > Preferences...`. Set the properties as followed:
+
+`Wii U SDK Location` as `C:\Nintendo\SDK\SDK\cafe_sdk`
+`MULTI Location`     as `C:\ghs\multi5324`
+
+Optionally, you may select your IDE, such as Visual Studio, as the `External Script Editor`.
 
 ![Configuration of the Unity project](/img/configure-unity-project.jpg)
