@@ -10,8 +10,8 @@ const config = {
   url: 'https://portal-wiiu-edition.com',
   baseUrl: '/docs/',
 
-  organizationName: 'Portal-Wii-U-Edition',
-  projectName: 'portal-wii-u-edition.github.io',
+  organizationName: 'Source-Macchiato',
+  projectName: 'docs',
   deploymentBranch: 'main',
   trailingSlash: false,
 
@@ -45,6 +45,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          editUrl: 'https://github.com/Source-Macchiato/unity-for-wiiu/edit/main/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
