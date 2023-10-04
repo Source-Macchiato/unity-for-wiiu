@@ -7,8 +7,8 @@ const config = {
   tagline: 'How to create Unity games on Wii U',
   favicon: 'img/favicon.ico',
 
-  url: 'https://portal-wiiu-edition.com',
-  baseUrl: '/docs/',
+  url: 'https://docs.portal-wiiu-edition.com',
+  baseUrl: '/',
 
   organizationName: 'Source-Macchiato',
   projectName: 'docs',
