@@ -26,7 +26,7 @@ const config = {
         label: 'English',
         direction: 'ltr',
         htmlLang: 'en-US',
-        path: 'en',
+        path: '/',
       },
       fr: {
         label: 'Français',
