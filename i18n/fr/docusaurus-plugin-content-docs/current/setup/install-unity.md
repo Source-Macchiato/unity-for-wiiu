@@ -9,7 +9,7 @@ Pour développer sur Unity pour Wii U vous devez suivre ces procédures.
 ## Téléchargement des executables
 
 Téléchargez les fichiers d'installation pour :
-- [Unity 2017.1.2p3](https://drive.google.com/file/d/1Yg5uslbLNljS48KVe3senZlip80ziQx0/view?usp=sharing)
+- [Unity 2017.1.2p3](https://download.unity3d.com/download_unity/249a06fbaf10/Windows64EditorInstaller/UnitySetup64-2017.1.2p3.exe)
 - [Le support Wii U de Unity 2017.1.2p3](https://drive.google.com/file/d/1CT7PZ_xNFPaWkwN-37TjYGIb3Xk9Y13p/view?usp=sharing)
 - [Unity Hub v3](https://unity.com/unity-hub)
 
@@ -17,7 +17,7 @@ Téléchargez les fichiers d'installation pour :
 
 ### Unity 2017.1.2p3
 
-Après avoir téléchargé, lancez le fichier UnityforWiiU-4_0_1-20171205.exe et effectuez une installation classique sans modifier les options par défaut.
+Après avoir téléchargé, lancez le fichier UnitySetup64-2017.1.2p3.exe et effectuez une installation classique sans modifier les options par défaut.
 
 ### Support Wii U de Unity 2017.1.2p3
 
